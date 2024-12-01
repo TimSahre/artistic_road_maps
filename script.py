@@ -11,8 +11,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # Configuration parameters
 config = {
-    "place_name": "Halle",  # Type in name of city
-    "color_scheme": "pink",  # Available: "default", "dark", "pink", "green", "blue", "yellow", "violet", "red_gold", "midnight_teal"
+    "place_name": "Friedrichshain-Kreuzberg",  # Type in name of city
+    "color_scheme": "pink",  # Available: "default", "dark", "pink", "green", "blue", "yellow", "violet", "red_gold", "midnight_teal", "ice_fire", "solar_flare", "emerald_glow", "copper_twilight", "nebula_dream"
     "config_file": "config.yml",  # Path to configuration file
     "font_path": "Protest_Revolution/ProtestRevolution-Regular.ttf",  # Custom font file path
     "custom_text_color": ""  # Custom text color (e.g., white). Leave empty to use the default color.
@@ -179,11 +179,11 @@ class MapVisualizer:
         text_color = self.custom_text_color or self.file_config["color_schemes"][self.color_scheme]["roads"]["motorway"]["color"]
         
         # Main title
-        ax.text(0.5, 0.95, self.title, transform=ax.transAxes, fontsize=30, color=text_color, 
-                ha="center", va="top", weight="bold", fontproperties=self.custom_font if self.custom_font else None)
+        #ax.text(0.5, 0.95, self.title, transform=ax.transAxes, fontsize=30, color=text_color, 
+                #ha="center", va="top", weight="bold", fontproperties=self.custom_font if self.custom_font else None)
         
         # Subtitle
-        ax.text(0.5, 0.9, self.subtitle, transform=ax.transAxes, fontsize=15, color=text_color, 
+        ax.text(0.5, 0.9, self.subtitle, transform=ax.transAxes, fontsize=50, color=text_color, 
                 ha="center", va="top", fontproperties=self.custom_font if self.custom_font else None)
         
         ax.axis("off")

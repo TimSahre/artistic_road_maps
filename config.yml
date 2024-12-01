@@ -107,7 +107,7 @@ color_schemes:
       residential: {color: "#ffd700", linewidth: 0.5} # Gold
       other: {color: "#ffdead", linewidth: 0.3}    # Pale gold
     water:
-      color: "#1e90ff"  # Dodger blue
+      color: "#00ffff"  # Dodger blue
       linewidth: 1.5
     background: "#2b1b17"  # Dark brown
 
@@ -121,6 +121,105 @@ color_schemes:
       residential: {color: "#87ceeb", linewidth: 0.5} # Sky blue
       other: {color: "#708090", linewidth: 0.3}    # Slate gray
     water:
-      color: "#4b0082"  # Indigo
+      color: "#00ffff"  # Indigo
       linewidth: 1.8
     background: "#101820"  # Midnight black-blue
+
+color_schemes:
+  default:
+    roads:
+      motorway: {color: "#d5d5d5", linewidth: 1.2}
+      trunk: {color: "#d5d5d5", linewidth: 1.2}
+      primary: {color: "#ededed", linewidth: 0.9}
+      secondary: {color: "#ededed", linewidth: 0.9}
+      tertiary: {color: "#a6a6a6", linewidth: 0.5}
+      residential: {color: "#a6a6a6", linewidth: 0.5}
+      other: {color: "#676767", linewidth: 0.3}
+    water:
+      color: "#72b1b1"
+      linewidth: 1.5
+    background: "#061529"
+
+  midnight_teal:
+    roads:
+      motorway: {color: "#00ced1", linewidth: 1.2}
+      trunk: {color: "#48d1cc", linewidth: 1.2}
+      primary: {color: "#20b2aa", linewidth: 0.9}
+      secondary: {color: "#5f9ea0", linewidth: 0.9}
+      tertiary: {color: "#4682b4", linewidth: 0.5}
+      residential: {color: "#87ceeb", linewidth: 0.5}
+      other: {color: "#708090", linewidth: 0.3}
+    water:
+      color: "#00ffff"
+      linewidth: 1.8
+    background: "#101820"
+
+  ice_fire:
+    roads:
+      motorway: {color: "#ff4500", linewidth: 1.2}
+      trunk: {color: "#ff6347", linewidth: 1.2}
+      primary: {color: "#ffa500", linewidth: 0.9}
+      secondary: {color: "#ffcccb", linewidth: 0.9}
+      tertiary: {color: "#add8e6", linewidth: 0.5}
+      residential: {color: "#87ceeb", linewidth: 0.5}
+      other: {color: "#4682b4", linewidth: 0.3}
+    water:
+      color: "#1e90ff"
+      linewidth: 1.8
+    background: "#202020"
+
+  copper_twilight:
+    roads:
+      motorway: {color: "#b87333", linewidth: 1.2}
+      trunk: {color: "#cd853f", linewidth: 1.2}
+      primary: {color: "#daa520", linewidth: 0.9}
+      secondary: {color: "#a0522d", linewidth: 0.9}
+      tertiary: {color: "#ffebcd", linewidth: 0.5}
+      residential: {color: "#deb887", linewidth: 0.5}
+      other: {color: "#8b4513", linewidth: 0.3}
+    water:
+      color: "#4682b4"
+      linewidth: 1.5
+    background: "#2e1a14"
+
+  solar_flare:
+    roads:
+      motorway: {color: "#ffff33", linewidth: 1.2}
+      trunk: {color: "#ffa500", linewidth: 1.2}
+      primary: {color: "#ff4500", linewidth: 0.9}
+      secondary: {color: "#ff6347", linewidth: 0.9}
+      tertiary: {color: "#ffd700", linewidth: 0.5}
+      residential: {color: "#ffd700", linewidth: 0.5}
+      other: {color: "#ffa07a", linewidth: 0.3}
+    water:
+      color: "#4169e1"
+      linewidth: 1.5
+    background: "#202020"
+
+  emerald_glow:
+    roads:
+      motorway: {color: "#50c878", linewidth: 1.2}
+      trunk: {color: "#32cd32", linewidth: 1.2}
+      primary: {color: "#228b22", linewidth: 0.9}
+      secondary: {color: "#98fb98", linewidth: 0.9}
+      tertiary: {color: "#90ee90", linewidth: 0.5}
+      residential: {color: "#8fbc8f", linewidth: 0.5}
+      other: {color: "#556b2f", linewidth: 0.3}
+    water:
+      color: "#87ceeb"
+      linewidth: 1.5
+    background: "#003333"
+
+  nebula_dream:
+    roads:
+      motorway: {color: "#ff1493", linewidth: 1.2}
+      trunk: {color: "#ff69b4", linewidth: 1.2}
+      primary: {color: "#8a2be2", linewidth: 0.9}
+      secondary: {color: "#9370db", linewidth: 0.9}
+      tertiary: {color: "#ba55d3", linewidth: 0.5}
+      residential: {color: "#dda0dd", linewidth: 0.5}
+      other: {color: "#9400d3", linewidth: 0.3}
+    water:
+      color: "#00ced1"
+      linewidth: 1.5
+    background: "#1a0033"
