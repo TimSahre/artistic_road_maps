@@ -1,0 +1,19 @@
+name: artistic_road_maps
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - osmnx
+  - networkx
+  - matplotlib
+  - pyyaml
+  - pandas
+  - fonttools
+  - pip
+  - pip:
+      - logging
+      - typing-extensions
+      - pillow  # For saving images
+
+prefix: ./env  # Optional: Specifies where the environment is created

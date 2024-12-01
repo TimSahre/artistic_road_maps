@@ -1,0 +1,126 @@
+color_schemes:
+  default:
+    roads:
+      motorway: {color: "#d5d5d5", linewidth: 1.2}  # Light gray
+      trunk: {color: "#d5d5d5", linewidth: 1.2}    # Light gray
+      primary: {color: "#ededed", linewidth: 0.9}  # Very light gray
+      secondary: {color: "#ededed", linewidth: 0.9} # Very light gray
+      tertiary: {color: "#a6a6a6", linewidth: 0.5} # Medium gray
+      residential: {color: "#a6a6a6", linewidth: 0.5} # Medium gray
+      other: {color: "#676767", linewidth: 0.3}    # Dark gray
+    water:
+      color: "#72b1b1"  # Soft blue
+      linewidth: 1.5
+    background: "#061529"  # Deep navy blue
+
+  dark:
+    roads:
+      motorway: {color: "#ff9e9e", linewidth: 1.2}  # Light red
+      trunk: {color: "#ff9e9e", linewidth: 1.2}    # Light red
+      primary: {color: "#ffcac5", linewidth: 0.9}  # Pinkish beige
+      secondary: {color: "#ffcbb2", linewidth: 0.9} # Warm peach
+      tertiary: {color: "#d3a5a5", linewidth: 0.5} # Muted pink
+      residential: {color: "#d3a5a5", linewidth: 0.5} # Muted pink
+      other: {color: "#9e7c7c", linewidth: 0.3}    # Brownish pink
+    water:
+      color: "#506b75"  # Muted steel blue
+      linewidth: 1.8
+    background: "#000000"  # Black
+
+  pink:
+    roads:
+      motorway: {color: "#ff0099", linewidth: 1.0}  # Neon pink
+      trunk: {color: "#ff0099", linewidth: 1.0}    # Neon pink
+      primary: {color: "#ff0099", linewidth: 0.7}  # Neon pink
+      secondary: {color: "#ff0099", linewidth: 0.7} # Neon pink
+      tertiary: {color: "#ff0099", linewidth: 0.5} # Neon pink
+      residential: {color: "#ff0099", linewidth: 0.5} # Neon pink
+      other: {color: "#ff0099", linewidth: 0.3}    # Neon pink
+    water:
+      color: "#00ffff"  # Neon cyan
+      linewidth: 1.5
+    background: "#2e002e"  # Deep magenta
+
+  green:
+    roads:
+      motorway: {color: "#00ff00", linewidth: 1.0}  # Neon green
+      trunk: {color: "#00ff00", linewidth: 1.0}    # Neon green
+      primary: {color: "#00ff00", linewidth: 0.7}  # Neon green
+      secondary: {color: "#00ff00", linewidth: 0.7} # Neon green
+      tertiary: {color: "#00ff00", linewidth: 0.5} # Neon green
+      residential: {color: "#00ff00", linewidth: 0.5} # Neon green
+      other: {color: "#00ff00", linewidth: 0.3}    # Neon green
+    water:
+      color: "#00ffff"  # Neon cyan
+      linewidth: 1.5
+    background: "#003300"  # Deep forest green
+
+  blue:
+    roads:
+      motorway: {color: "#00ccff", linewidth: 1.0}  # Neon blue
+      trunk: {color: "#00ccff", linewidth: 1.0}    # Neon blue
+      primary: {color: "#00ccff", linewidth: 0.7}  # Neon blue
+      secondary: {color: "#00ccff", linewidth: 0.7} # Neon blue
+      tertiary: {color: "#00ccff", linewidth: 0.5} # Neon blue
+      residential: {color: "#00ccff", linewidth: 0.5} # Neon blue
+      other: {color: "#00ccff", linewidth: 0.3}    # Neon blue
+    water:
+      color: "#00ffff"  # Neon cyan
+      linewidth: 1.5
+    background: "#002233"  # Deep teal
+
+  yellow:
+    roads:
+      motorway: {color: "#ffff00", linewidth: 1.0}  # Neon yellow
+      trunk: {color: "#ffff00", linewidth: 1.0}    # Neon yellow
+      primary: {color: "#ffff00", linewidth: 0.7}  # Neon yellow
+      secondary: {color: "#ffff00", linewidth: 0.7} # Neon yellow
+      tertiary: {color: "#ffff00", linewidth: 0.5} # Neon yellow
+      residential: {color: "#ffff00", linewidth: 0.5} # Neon yellow
+      other: {color: "#ffff00", linewidth: 0.3}    # Neon yellow
+    water:
+      color: "#00ffff"  # Neon cyan
+      linewidth: 1.5
+    background: "#333300"  # Deep olive green
+
+  violet:
+    roads:
+      motorway: {color: "#ff00ff", linewidth: 1.0}  # Neon violet
+      trunk: {color: "#ff00ff", linewidth: 1.0}    # Neon violet
+      primary: {color: "#ff00ff", linewidth: 0.7}  # Neon violet
+      secondary: {color: "#ff00ff", linewidth: 0.7} # Neon violet
+      tertiary: {color: "#ff00ff", linewidth: 0.5} # Neon violet
+      residential: {color: "#ff00ff", linewidth: 0.5} # Neon violet
+      other: {color: "#ff00ff", linewidth: 0.3}    # Neon violet
+    water:
+      color: "#00ffff"  # Neon cyan
+      linewidth: 1.5
+    background: "#330033"  # Deep purple
+
+  red_gold:
+    roads:
+      motorway: {color: "#ff4500", linewidth: 1.2}  # Bright red-orange
+      trunk: {color: "#ff6347", linewidth: 1.2}    # Tomato red
+      primary: {color: "#ffa500", linewidth: 0.9}  # Orange
+      secondary: {color: "#ff8c00", linewidth: 0.9} # Dark orange
+      tertiary: {color: "#ffd700", linewidth: 0.5} # Gold
+      residential: {color: "#ffd700", linewidth: 0.5} # Gold
+      other: {color: "#ffdead", linewidth: 0.3}    # Pale gold
+    water:
+      color: "#1e90ff"  # Dodger blue
+      linewidth: 1.5
+    background: "#2b1b17"  # Dark brown
+
+  midnight_teal:
+    roads:
+      motorway: {color: "#00ced1", linewidth: 1.2}  # Dark turquoise
+      trunk: {color: "#48d1cc", linewidth: 1.2}    # Medium turquoise
+      primary: {color: "#20b2aa", linewidth: 0.9}  # Light sea green
+      secondary: {color: "#5f9ea0", linewidth: 0.9} # Cadet blue
+      tertiary: {color: "#4682b4", linewidth: 0.5} # Steel blue
+      residential: {color: "#87ceeb", linewidth: 0.5} # Sky blue
+      other: {color: "#708090", linewidth: 0.3}    # Slate gray
+    water:
+      color: "#4b0082"  # Indigo
+      linewidth: 1.8
+    background: "#101820"  # Midnight black-blue
